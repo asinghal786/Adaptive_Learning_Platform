@@ -134,21 +134,6 @@ elif score > 80%: increase_difficulty()
 
 ## 🔧 Configuration
 
-### Environment Variables
-
-```bash
-# Flask Configuration
-SECRET_KEY=your-secret-key-here
-FLASK_ENV=development
-
-# Database
-DATABASE_URL=postgresql://username:password@localhost/adaptive_learning
-
-# NVIDIA API
-NVIDIA_API_KEY=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
-NVIDIA_API_URL=https://integrate.api.nvidia.com/v1/chat/completions
-```
-
 ### Database Setup
 
 For PostgreSQL:
